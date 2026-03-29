@@ -1,112 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دبّة حمّيسة</title>
+    <title>دبّة حميسة</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f8f8f8;
+            font-family: "Cairo", sans-serif;
             margin: 0;
-            padding: 0;
+            background: #f6f6f6;
         }
 
         header {
             background: #d32f2f;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
-            font-size: 24px;
-        }
-
-        .section-title {
-            padding: 10px;
-            background: #ffebee;
-            border-right: 5px solid #c62828;
-            font-size: 20px;
-            margin-top: 20px;
-        }
-
-        .menu-item {
-            background: white;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 10px;
-            box-shadow: 0 0 5px #ccc;
-        }
-
-        .price {
-            color: #c62828;
+            font-size: 28px;
             font-weight: bold;
         }
 
-        footer {
-            margin-top: 20px;
-            background: #d32f2f;
+        .section {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 5px #bbb;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 20px;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .order-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 12px;
+            width: 80%;
+            background: #388e3c;
             color: white;
             text-align: center;
-            padding: 10px;
+            border-radius: 10px;
+            font-size: 22px;
+            text-decoration: none;
         }
     </style>
 </head>
-
 <body>
 
 <header>
-    مطعم دبّة حمّيسة
+    مطعم دبّة حميسة
 </header>
 
-<!-- قسم الأكلات السريعة -->
-<div class="section-title">🍔 الأكلات السريعة</div>
+<div class="section">
+    <h2>المنيو</h2>
 
-<div class="menu-item">
-    برغر لحم — <span class="price">4000 د.ع</span>
+    <div id="menu-items">
+        <!-- هنا رح نضيف الأصناف لاحقاً -->
+    </div>
+
+    <a class="order-btn" href="https://wa.me/9647700000000?text=مرحبا%20اريد%20اطلب" target="_blank">
+        اطلب الآن عبر الواتساب
+    </a>
 </div>
-
-<div class="menu-item">
-    برغر دجاج — <span class="price">3500 د.ع</span>
-</div>
-
-<div class="menu-item">
-    شاورما صحن — <span class="price">5000 د.ع</span>
-</div>
-
-<div class="menu-item">
-    شاورما سندويچ — <span class="price">2000 د.ع</span>
-</div>
-
-<!-- قسم المقبلات -->
-<div class="section-title">🥗 المقبلات</div>
-
-<div class="menu-item">
-    بطاطا مقلية — <span class="price">1500 د.ع</span>
-</div>
-
-<div class="menu-item">
-    سلطات متنوعة — <span class="price">2000 د.ع</span>
-</div>
-
-<!-- قسم المشروبات -->
-<div class="section-title">🥤 المشروبات</div>
-
-<div class="menu-item">
-    بيبسي — <span class="price">500 د.ع</span>
-</div>
-
-<div class="menu-item">
-    ميرندا — <span class="price">500 د.ع</span>
-</div>
-
-<div class="menu-item">
-    شاي — <span class="price">250 د.ع</span>
-</div>
-
-<footer>
-    © 2026 — دبّة حمّيسة
-</footer>
 
 </body>
 </html>
