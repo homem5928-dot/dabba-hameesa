@@ -9,7 +9,7 @@
         body {
             font-family: "Cairo", sans-serif;
             margin: 0;
-            background: #f6f6f6;
+            background: #f1f1f1;
         }
 
         header {
@@ -24,15 +24,27 @@
         .section {
             background: white;
             margin: 15px;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0px 0px 5px #bbb;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 6px #bbb;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #c62828;
+        }
+
+        h3 {
+            margin-top: 25px;
+            color: #333;
+            border-right: 5px solid #d32f2f;
+            padding-right: 10px;
         }
 
         .item {
             display: flex;
             justify-content: space-between;
-            padding: 10px 0;
+            padding: 12px 0;
             border-bottom: 1px solid #eee;
             font-size: 20px;
         }
@@ -43,15 +55,24 @@
 
         .order-btn {
             display: block;
-            margin: 20px auto;
-            padding: 12px;
-            width: 80%;
+            margin: 30px auto 10px auto;
+            padding: 14px;
+            width: 90%;
             background: #388e3c;
             color: white;
             text-align: center;
-            border-radius: 10px;
+            border-radius: 12px;
             font-size: 22px;
             text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #d32f2f;
+            color: white;
+            margin-top: 20px;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -64,14 +85,44 @@
 <div class="section">
     <h2>المنيو</h2>
 
-    <div id="menu-items">
-        <!-- هنا رح نضيف الأصناف لاحقاً -->
-    </div>
+    <h3>الشاورما</h3>
+    <div class="item"><span>شاورما دجاج</span><span>3000</span></div>
+    <div class="item"><span>شاورما لحم</span><span>4000</span></div>
+    <div class="item"><span>شاورما صحن</span><span>5000</span></div>
+    <div class="item"><span>شاورما عربي</span><span>6000</span></div>
+
+    <h3>المقليات</h3>
+    <div class="item"><span>بطاطا</span><span>2000</span></div>
+    <div class="item"><span>نكهات بطاطا</span><span>2500</span></div>
+    <div class="item"><span>أصابع جبن</span><span>3000</span></div>
+    <div class="item"><span>تشكن ستربس</span><span>4000</span></div>
+
+    <h3>المقبلات</h3>
+    <div class="item"><span>حمص</span><span>1500</span></div>
+    <div class="item"><span>تبولة</span><span>2000</span></div>
+    <div class="item"><span>بابا غنوج</span><span>1500</span></div>
+    <div class="item"><span>ورق عنب</span><span>2000</span></div>
+
+    <h3>الوجبات</h3>
+    <div class="item"><span>بروستد</span><span>6000</span></div>
+    <div class="item"><span>ريزوتو دجاج</span><span>7000</span></div>
+    <div class="item"><span>وجبة كباب</span><span>5000</span></div>
+    <div class="item"><span>وجبة برغر</span><span>4000</span></div>
+
+    <h3>المشروبات</h3>
+    <div class="item"><span>بيبسي</span><span>500</span></div>
+    <div class="item"><span>ميرندا</span><span>500</span></div>
+    <div class="item"><span>سونكست</span><span>500</span></div>
+    <div class="item"><span>ماء</span><span>250</span></div>
 
     <a class="order-btn" href="https://wa.me/9647700000000?text=مرحبا%20اريد%20اطلب" target="_blank">
         اطلب الآن عبر الواتساب
     </a>
 </div>
+
+<footer>
+    © 2026 — دبّة حميسة
+</footer>
 
 </body>
 </html>
